@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8B4723ED1C35F87C0010F2FA"
-               BuildableName = "Fightbait.app"
-               BlueprintName = "Fightbait"
-               ReferencedContainer = "container:Fightbait.xcodeproj">
+               BuildableName = "fightbait.app"
+               BlueprintName = "fightbait"
+               ReferencedContainer = "container:fightbait.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8B4724011C35F87C0010F2FA"
-               BuildableName = "FightbaitTests.xctest"
-               BlueprintName = "FightbaitTests"
-               ReferencedContainer = "container:Fightbait.xcodeproj">
+               BuildableName = "fightbait.xctest"
+               BlueprintName = "fightbaitTests"
+               ReferencedContainer = "container:fightbait.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8B47240C1C35F87C0010F2FA"
-               BuildableName = "FightbaitUITests.xctest"
-               BlueprintName = "FightbaitUITests"
-               ReferencedContainer = "container:Fightbait.xcodeproj">
+               BuildableName = "fightbait.xctest"
+               BlueprintName = "fightbaitUITests"
+               ReferencedContainer = "container:fightbait.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B4723ED1C35F87C0010F2FA"
-            BuildableName = "Fightbait.app"
-            BlueprintName = "Fightbait"
-            ReferencedContainer = "container:Fightbait.xcodeproj">
+            BuildableName = "fightbait.app"
+            BlueprintName = "fightbait"
+            ReferencedContainer = "container:fightbait.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B4723ED1C35F87C0010F2FA"
-            BuildableName = "Fightbait.app"
-            BlueprintName = "Fightbait"
-            ReferencedContainer = "container:Fightbait.xcodeproj">
+            BuildableName = "fightbait.app"
+            BlueprintName = "fightbait"
+            ReferencedContainer = "container:fightbait.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8B4723ED1C35F87C0010F2FA"
-            BuildableName = "Fightbait.app"
-            BlueprintName = "Fightbait"
-            ReferencedContainer = "container:Fightbait.xcodeproj">
+            BuildableName = "fightbait.app"
+            BlueprintName = "fightbait"
+            ReferencedContainer = "container:fightbait.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

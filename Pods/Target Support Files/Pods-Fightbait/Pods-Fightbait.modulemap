@@ -1,5 +1,5 @@
-framework module Pods_Fightbait {
-  umbrella header "Pods-Fightbait-umbrella.h"
+framework module Pods_fightbait {
+  umbrella header "Pods-fightbait-umbrella.h"
 
   export *
   module * { export * }

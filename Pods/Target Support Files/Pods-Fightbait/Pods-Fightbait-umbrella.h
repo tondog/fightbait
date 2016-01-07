@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
 
 
-FOUNDATION_EXPORT double Pods_FightbaitVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_FightbaitVersionString[];
+FOUNDATION_EXPORT double Pods_fightbaitVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_fightbaitVersionString[];
 

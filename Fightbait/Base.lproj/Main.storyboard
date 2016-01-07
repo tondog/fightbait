@@ -9,7 +9,7 @@
         <!--Radio View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="RadioViewController" customModule="Fightbait" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="RadioViewController" customModule="fightbait" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -98,6 +98,8 @@
                     <connections>
                         <outlet property="albumArtView" destination="dsR-ml-JFR" id="rh8-SU-oLI"/>
                         <outlet property="radioPlayButton" destination="0rD-ss-kvW" id="WdX-zQ-PBp"/>
+                        <outlet property="slider" destination="KxC-e6-Zx5" id="NN4-wT-32Q"/>
+                        <outlet property="volumeParentView" destination="3v1-JW-7Wz" id="lUj-IW-5Jy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

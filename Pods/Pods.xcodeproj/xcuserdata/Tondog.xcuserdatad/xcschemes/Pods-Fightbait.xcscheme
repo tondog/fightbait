@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '883DD6F3349293247A4B27BD'
-               BlueprintName = 'Pods-Fightbait'
+               BlueprintIdentifier = 'C58562226EBD5F11AD251A85'
+               BlueprintName = 'Pods-fightbait'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods_Fightbait.framework'>
+               BuildableName = 'Pods_fightbait.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

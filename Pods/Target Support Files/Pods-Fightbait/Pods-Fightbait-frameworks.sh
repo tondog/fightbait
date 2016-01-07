@@ -84,10 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-Fightbait/KDEAudioPlayer.framework"
-  install_framework "Pods-Fightbait/Spring.framework"
+  install_framework "Pods-fightbait/KDEAudioPlayer.framework"
+  install_framework "Pods-fightbait/Spring.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-Fightbait/KDEAudioPlayer.framework"
-  install_framework "Pods-Fightbait/Spring.framework"
+  install_framework "Pods-fightbait/KDEAudioPlayer.framework"
+  install_framework "Pods-fightbait/Spring.framework"
 fi

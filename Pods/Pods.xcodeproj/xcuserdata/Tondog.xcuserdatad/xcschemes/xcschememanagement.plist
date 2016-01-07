@@ -9,7 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Fightbait.xcscheme</key>
+		<key>Pods-fightbait.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,12 +22,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0820112732CEDFD65F9F2F2C7A8E6E7F</key>
+		<key>1A83AF966B5B067BBAF1B512706926A4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2D290ACA5ACDEE3F76685C292AF88D4E</key>
+		<key>26F42C3A858E1970CBD15F48E99BEDD7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

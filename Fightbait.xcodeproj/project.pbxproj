@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F1BCBD90BEEB2136DEDF70A /* Pods_fightbait.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C82F2B118007F5BF22BD4B3 /* Pods_fightbait.framework */; };
 		8B4723F21C35F87C0010F2FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4723F11C35F87C0010F2FA /* AppDelegate.swift */; };
 		8B4723F71C35F87C0010F2FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4723F51C35F87C0010F2FA /* Main.storyboard */; };
 		8B4723F91C35F87C0010F2FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4723F81C35F87C0010F2FA /* Assets.xcassets */; };
@@ -17,7 +18,6 @@
 		8B92A58E1C37468500B0D6EA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B92A58D1C37468500B0D6EA /* MediaPlayer.framework */; };
 		8BE11FBA1C360F0F006A8102 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE11FB91C360F0F006A8102 /* AVFoundation.framework */; };
 		8BE11FBD1C3610C5006A8102 /* RadioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE11FBC1C3610C5006A8102 /* RadioPlayer.swift */; };
-		F17A9D85EF50997579F6F778 /* Pods_Fightbait.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D7D3D951CF2BBB88A949AF /* Pods_Fightbait.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,24 +39,27 @@
 
 /* Begin PBXFileReference section */
 		46D7D3D951CF2BBB88A949AF /* Pods_Fightbait.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fightbait.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F2B3B023402B3622C754A7 /* Pods-fightbait.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fightbait.release.xcconfig"; path = "Pods/Target Support Files/Pods-fightbait/Pods-fightbait.release.xcconfig"; sourceTree = "<group>"; };
 		52C709B9271F47CBCC86F0BB /* Pods-Fightbait.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fightbait.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fightbait/Pods-Fightbait.debug.xcconfig"; sourceTree = "<group>"; };
 		75E7B2D7255E5F2E64B52B33 /* Pods-Fightbait.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fightbait.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fightbait/Pods-Fightbait.release.xcconfig"; sourceTree = "<group>"; };
-		8B4723EE1C35F87C0010F2FA /* Fightbait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fightbait.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4723EE1C35F87C0010F2FA /* fightbait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fightbait.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4723F11C35F87C0010F2FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B4723F61C35F87C0010F2FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B4723F81C35F87C0010F2FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B4723FB1C35F87C0010F2FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B4723FD1C35F87C0010F2FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B4724021C35F87C0010F2FA /* FightbaitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FightbaitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4724021C35F87C0010F2FA /* fightbait.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fightbait.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4724061C35F87C0010F2FA /* FightbaitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightbaitTests.swift; sourceTree = "<group>"; };
 		8B4724081C35F87C0010F2FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B47240D1C35F87C0010F2FA /* FightbaitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FightbaitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B47240D1C35F87C0010F2FA /* fightbait.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fightbait.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4724111C35F87C0010F2FA /* FightbaitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightbaitUITests.swift; sourceTree = "<group>"; };
 		8B4724131C35F87C0010F2FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B47241F1C35F9980010F2FA /* RadioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioViewController.swift; sourceTree = "<group>"; };
 		8B92A58D1C37468500B0D6EA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		8BE11FB91C360F0F006A8102 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		8BE11FBC1C3610C5006A8102 /* RadioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioPlayer.swift; sourceTree = "<group>"; };
+		9C82F2B118007F5BF22BD4B3 /* Pods_fightbait.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fightbait.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0680AA70C480FC614391438 /* Pods-fightbait.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fightbait.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fightbait/Pods-fightbait.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +69,7 @@
 			files = (
 				8BE11FBA1C360F0F006A8102 /* AVFoundation.framework in Frameworks */,
 				8B92A58E1C37468500B0D6EA /* MediaPlayer.framework in Frameworks */,
-				F17A9D85EF50997579F6F778 /* Pods_Fightbait.framework in Frameworks */,
+				5F1BCBD90BEEB2136DEDF70A /* Pods_fightbait.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +95,8 @@
 			children = (
 				52C709B9271F47CBCC86F0BB /* Pods-Fightbait.debug.xcconfig */,
 				75E7B2D7255E5F2E64B52B33 /* Pods-Fightbait.release.xcconfig */,
+				A0680AA70C480FC614391438 /* Pods-fightbait.debug.xcconfig */,
+				49F2B3B023402B3622C754A7 /* Pods-fightbait.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -100,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				46D7D3D951CF2BBB88A949AF /* Pods_Fightbait.framework */,
+				9C82F2B118007F5BF22BD4B3 /* Pods_fightbait.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,9 +127,9 @@
 		8B4723EF1C35F87C0010F2FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B4723EE1C35F87C0010F2FA /* Fightbait.app */,
-				8B4724021C35F87C0010F2FA /* FightbaitTests.xctest */,
-				8B47240D1C35F87C0010F2FA /* FightbaitUITests.xctest */,
+				8B4723EE1C35F87C0010F2FA /* fightbait.app */,
+				8B4724021C35F87C0010F2FA /* fightbait.xctest */,
+				8B47240D1C35F87C0010F2FA /* fightbait.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,9 +169,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8B4723ED1C35F87C0010F2FA /* Fightbait */ = {
+		8B4723ED1C35F87C0010F2FA /* fightbait */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B4724161C35F87C0010F2FA /* Build configuration list for PBXNativeTarget "Fightbait" */;
+			buildConfigurationList = 8B4724161C35F87C0010F2FA /* Build configuration list for PBXNativeTarget "fightbait" */;
 			buildPhases = (
 				2F6BD231A21932F4D2B020BC /* Check Pods Manifest.lock */,
 				8B4723EA1C35F87C0010F2FA /* Sources */,
@@ -178,14 +184,14 @@
 			);
 			dependencies = (
 			);
-			name = Fightbait;
+			name = fightbait;
 			productName = Fightbait;
-			productReference = 8B4723EE1C35F87C0010F2FA /* Fightbait.app */;
+			productReference = 8B4723EE1C35F87C0010F2FA /* fightbait.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8B4724011C35F87C0010F2FA /* FightbaitTests */ = {
+		8B4724011C35F87C0010F2FA /* fightbaitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B4724191C35F87C0010F2FA /* Build configuration list for PBXNativeTarget "FightbaitTests" */;
+			buildConfigurationList = 8B4724191C35F87C0010F2FA /* Build configuration list for PBXNativeTarget "fightbaitTests" */;
 			buildPhases = (
 				8B4723FE1C35F87C0010F2FA /* Sources */,
 				8B4723FF1C35F87C0010F2FA /* Frameworks */,
@@ -196,14 +202,14 @@
 			dependencies = (
 				8B4724041C35F87C0010F2FA /* PBXTargetDependency */,
 			);
-			name = FightbaitTests;
+			name = fightbaitTests;
 			productName = FightbaitTests;
-			productReference = 8B4724021C35F87C0010F2FA /* FightbaitTests.xctest */;
+			productReference = 8B4724021C35F87C0010F2FA /* fightbait.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8B47240C1C35F87C0010F2FA /* FightbaitUITests */ = {
+		8B47240C1C35F87C0010F2FA /* fightbaitUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B47241C1C35F87C0010F2FA /* Build configuration list for PBXNativeTarget "FightbaitUITests" */;
+			buildConfigurationList = 8B47241C1C35F87C0010F2FA /* Build configuration list for PBXNativeTarget "fightbaitUITests" */;
 			buildPhases = (
 				8B4724091C35F87C0010F2FA /* Sources */,
 				8B47240A1C35F87C0010F2FA /* Frameworks */,
@@ -214,9 +220,9 @@
 			dependencies = (
 				8B47240F1C35F87C0010F2FA /* PBXTargetDependency */,
 			);
-			name = FightbaitUITests;
+			name = fightbaitUITests;
 			productName = FightbaitUITests;
-			productReference = 8B47240D1C35F87C0010F2FA /* FightbaitUITests.xctest */;
+			productReference = 8B47240D1C35F87C0010F2FA /* fightbait.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -227,7 +233,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = Fightbait;
+				ORGANIZATIONNAME = fightbait;
 				TargetAttributes = {
 					8B4723ED1C35F87C0010F2FA = {
 						CreatedOnToolsVersion = 7.2;
@@ -245,7 +251,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8B4723E91C35F87C0010F2FA /* Build configuration list for PBXProject "Fightbait" */;
+			buildConfigurationList = 8B4723E91C35F87C0010F2FA /* Build configuration list for PBXProject "fightbait" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -258,9 +264,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8B4723ED1C35F87C0010F2FA /* Fightbait */,
-				8B4724011C35F87C0010F2FA /* FightbaitTests */,
-				8B47240C1C35F87C0010F2FA /* FightbaitUITests */,
+				8B4723ED1C35F87C0010F2FA /* fightbait */,
+				8B4724011C35F87C0010F2FA /* fightbaitTests */,
+				8B47240C1C35F87C0010F2FA /* fightbaitUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -320,7 +326,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fightbait/Pods-Fightbait-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fightbait/Pods-fightbait-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C1A69035A154F1EB93A79744 /* Copy Pods Resources */ = {
@@ -335,7 +341,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fightbait/Pods-Fightbait-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fightbait/Pods-fightbait-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -372,12 +378,12 @@
 /* Begin PBXTargetDependency section */
 		8B4724041C35F87C0010F2FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8B4723ED1C35F87C0010F2FA /* Fightbait */;
+			target = 8B4723ED1C35F87C0010F2FA /* fightbait */;
 			targetProxy = 8B4724031C35F87C0010F2FA /* PBXContainerItemProxy */;
 		};
 		8B47240F1C35F87C0010F2FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8B4723ED1C35F87C0010F2FA /* Fightbait */;
+			target = 8B4723ED1C35F87C0010F2FA /* fightbait */;
 			targetProxy = 8B47240E1C35F87C0010F2FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -485,28 +491,28 @@
 		};
 		8B4724171C35F87C0010F2FA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52C709B9271F47CBCC86F0BB /* Pods-Fightbait.debug.xcconfig */;
+			baseConfigurationReference = A0680AA70C480FC614391438 /* Pods-fightbait.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fightbait/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fightbait.Fightbait;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = fightbait;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8B4724181C35F87C0010F2FA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75E7B2D7255E5F2E64B52B33 /* Pods-Fightbait.release.xcconfig */;
+			baseConfigurationReference = 49F2B3B023402B3622C754A7 /* Pods-fightbait.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fightbait/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fightbait.Fightbait;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = fightbait;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -518,8 +524,8 @@
 				INFOPLIST_FILE = FightbaitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fightbait.FightbaitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fightbait.app/Fightbait";
+				PRODUCT_NAME = fightbait;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fightbait.app/fightbait";
 			};
 			name = Debug;
 		};
@@ -530,8 +536,8 @@
 				INFOPLIST_FILE = FightbaitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fightbait.FightbaitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fightbait.app/Fightbait";
+				PRODUCT_NAME = fightbait;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fightbait.app/fightbait";
 			};
 			name = Release;
 		};
@@ -541,7 +547,7 @@
 				INFOPLIST_FILE = FightbaitUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fightbait.FightbaitUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = fightbait;
 				TEST_TARGET_NAME = Fightbait;
 				USES_XCTRUNNER = YES;
 			};
@@ -553,7 +559,7 @@
 				INFOPLIST_FILE = FightbaitUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fightbait.FightbaitUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = fightbait;
 				TEST_TARGET_NAME = Fightbait;
 				USES_XCTRUNNER = YES;
 			};
@@ -562,7 +568,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8B4723E91C35F87C0010F2FA /* Build configuration list for PBXProject "Fightbait" */ = {
+		8B4723E91C35F87C0010F2FA /* Build configuration list for PBXProject "fightbait" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B4724141C35F87C0010F2FA /* Debug */,
@@ -571,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B4724161C35F87C0010F2FA /* Build configuration list for PBXNativeTarget "Fightbait" */ = {
+		8B4724161C35F87C0010F2FA /* Build configuration list for PBXNativeTarget "fightbait" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B4724171C35F87C0010F2FA /* Debug */,
@@ -580,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B4724191C35F87C0010F2FA /* Build configuration list for PBXNativeTarget "FightbaitTests" */ = {
+		8B4724191C35F87C0010F2FA /* Build configuration list for PBXNativeTarget "fightbaitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B47241A1C35F87C0010F2FA /* Debug */,
@@ -589,7 +595,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B47241C1C35F87C0010F2FA /* Build configuration list for PBXNativeTarget "FightbaitUITests" */ = {
+		8B47241C1C35F87C0010F2FA /* Build configuration list for PBXNativeTarget "fightbaitUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B47241D1C35F87C0010F2FA /* Debug */,

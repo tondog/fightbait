@@ -4,5 +4,5 @@ LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_pa
 OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/KDEAudioPlayer.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/Spring.framework/Headers"
 OTHER_LDFLAGS = $(inherited) -framework "KDEAudioPlayer" -framework "Spring"
 OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
-PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Fightbait
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-fightbait
 PODS_ROOT = ${SRCROOT}/Pods
