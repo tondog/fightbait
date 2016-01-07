@@ -1,0 +1,23 @@
+PODS:
+  - KDEAudioPlayer (0.4.3)
+  - Spring (1.0.3)
+
+DEPENDENCIES:
+  - KDEAudioPlayer
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift2`)
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift2
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 18d5c7b74489de8044e34767f856d1e574f0820e
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  KDEAudioPlayer: bb0e7fa72dceb5b8b611dd82e957c3bf19208bc0
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+
+COCOAPODS: 0.39.0

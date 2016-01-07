@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0296F4B527187CF56763B3EF6FF8FB48 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40F5C7AF73F55E7910F875FB88FDB1D /* ImageLoader.swift */; };
+		0703C2D46FB27B2EF231A8D75EF99F42 /* KDEAudioPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494464278FF2413287E46A324D0F8D8 /* KDEAudioPlayer-dummy.m */; };
+		0A135879E545A65E07D2954A111AD3F6 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A488F17DC489B3FC796556C7C641F1 /* AudioPlayer.swift */; };
+		0A4AD25D0BA06E7AA350303124066462 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3671F2A72C7F0A42BE648663F8597F /* SystemConfiguration.framework */; };
+		0AC3D6A36381FAEEDFD1F196AB3622E5 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2616C35E6CE08728AA94F3E3AEBF020D /* KeyboardLayoutConstraint.swift */; };
+		0BB4589350D007B99007B7AE5C972186 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEAAB75EBFDA02FF8C36A7C1A32FC06 /* BlurView.swift */; };
+		1CCF7006E484F810393B7813C2E21A43 /* Pods-Fightbait-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BD3682D5D058C192FE2EBDCAFA8E4C /* Pods-Fightbait-dummy.m */; };
+		39064334E8B5EFADB35E7CA897D88B0F /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 805CC44C603BFE7A6E10728C776E9FF6 /* LoadingView.xib */; };
+		43338C8709E4AD42F3BCAE8AA0D5E2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09C42B01F6CBFDAB6DD4F3295492CA9 /* Foundation.framework */; };
+		4B1D7BC586A17563671200CC7494E991 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6538CA739383A3CC5032CABF3EFCFC24 /* DesignableTextField.swift */; };
+		5816F668EF1444B1A6E37C35CA91187C /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799A9E58B21E35762CC3299B95F2370B /* UnwindSegue.swift */; };
+		59C689314C86DE967FD011538258D6E5 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB788189A3FDF4C182CD1778E94FDBB8 /* TransitionZoom.swift */; };
+		5C51683C772DEAD004DBE54ADECB1BE8 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0686991A28AE4B26771967198E0EE0F7 /* SpringAnimation.swift */; };
+		619EAE8BC77BA2203473791F9923A0D0 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4211C85B63C142A21678DEE7CEB6B1F /* DesignableTabBarController.swift */; };
+		6568177C2D70B5EBE1BA352CCDD1C503 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AAFC173987C29B4BA3C3515E623009 /* AutoTextView.swift */; };
+		6BCD77AA97D45167958EC9BE71846C5C /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DDB3A02CC14EA3A408DA13FB76C7BC /* SpringButton.swift */; };
+		6EE6798930E34BF4965A068532523A45 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1EDA973101615A8BA991C79C7C89C /* AsyncImageView.swift */; };
+		71E442946616DE2A29359898CFBE4EC6 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A40C8E8B866509256BF3E278CA9CE18 /* SpringTextView.swift */; };
+		765DCCD350062B9C01357884248AECC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09C42B01F6CBFDAB6DD4F3295492CA9 /* Foundation.framework */; };
+		81F83890B3F5D9AB64C1F03B8737F436 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B4CE7C3AFB484ECA6611BD72ED984D /* SpringView.swift */; };
+		8DB745B86FE9D8CB0500C425CE6C26F7 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A5361F3AEDC6D6567E47BF891D4A87 /* TransitionManager.swift */; };
+		96B033297F7B2AE236C1868FFE5C173A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D30C5B276007CB331B396C9A9F79D9B /* MediaPlayer.framework */; };
+		98D4AEB0528A7924A6B6BB12B24295FA /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5002C740C4535B239D613F8678709C96 /* Misc.swift */; };
+		9AB31A331649F77202877B7C1277F406 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12E8A8FE307E4E4960B597BD994899B /* DesignableView.swift */; };
+		9E7119A2BC750FDA21FF1E006D6617B0 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD9567321E71B122B8B68415AC4C28 /* AsyncButton.swift */; };
+		A00D4B914E736C58A77DA16C14B73C53 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2F5102E9E17C2481BE0B6D1C3EB55D /* SoundPlayer.swift */; };
+		A4EBE84C260B69BC2D6848DBA273BA58 /* AudioItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE828F02911760B3F8525391D7513EC2 /* AudioItem.swift */; };
+		A6A1B27B928D1CFE69A06A03078AEE3A /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860582F95F57ADFC0671B6932AB27BA4 /* DesignableLabel.swift */; };
+		A973D0336DCFA83E6D44E0D7E540BBB4 /* KDEAudioPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB8A18FFC2B50629A4CDD5C850D8A38 /* KDEAudioPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB37C48A55DC7EA06DB6F4C7CDB77291 /* Spring-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F34AEADB360063703B300204ACF3381 /* Spring-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B072412A9B39E773BFD13CF6B672FFBF /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E9C2AB57F6CE627CAC97A09C438685 /* Reachability.swift */; };
+		B164F5C80BE61229D5E815DC7EF8A674 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAEEF6C719D962B3F435A6A180F6CE7 /* SpringImageView.swift */; };
+		B1E2C7F59A4B68C754FADD0C3CFEB32A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD1CD2828EF2C6A90EF6E167915E92B /* UIKit.framework */; };
+		B6032D5A247BCAC49926EF28E68B17CF /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E926F61E90D3A443B54DF79EC0081E1 /* LoadingView.swift */; };
+		B797128E052C5C6C6300A104F4479D34 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD8C7958116875000461C1CD2B71F59 /* Spring.swift */; };
+		BCF5D5BB1041DDC4839CDE4595F9503A /* Pods-Fightbait-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24ADFD8F7F48BD5740845AA6FA507483 /* Pods-Fightbait-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD79C37A94CC84C78B514076E9A86F5D /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8CC32582ADA946CEEE179A93073222 /* SpringTextField.swift */; };
+		C14EA50E925AD5BE2D56B1ECF9FB6C4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6EE8A82C065DB31A4961435BDF16B66 /* Images.xcassets */; };
+		C82A4304439C1A0C3D8ACFD194F13403 /* Spring-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B21CCE87D802261E1078DA6F2DB5A78 /* Spring-dummy.m */; };
+		CD7E38ED6C250ED5CF1D0FC74F8D741C /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C065C6D0E4CC334849389C860F794D9 /* SpringLabel.swift */; };
+		D49B10BA296638DE79F6C7923E809DCE /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DC5A8F67F57EB1462B5DD955C4B981 /* DesignableTextView.swift */; };
+		D9FFED6376826CA3D9DD665927D01841 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F075347F78550BCE1017F51D0BB413 /* DesignableButton.swift */; };
+		E752C356C4D4ACE5141E54921BC45788 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0286E13FADD3ABC0E9D61EEC9042DCD1 /* AVFoundation.framework */; };
+		F5D0FE796F1C303AEDBE7C4B1A9E474D /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968B6F2003F1F1461DBE80EFADDC1FC3 /* DesignableImageView.swift */; };
+		F82D92E1182B80A847A057A4F8722D90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09C42B01F6CBFDAB6DD4F3295492CA9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48AEE5F2FDF6A8DD0B650E015621D367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D290ACA5ACDEE3F76685C292AF88D4E;
+			remoteInfo = Spring;
+		};
+		EE760649E51787E80D3270D332D7E821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 541E9AD8F0209976F59A780F49A3F069;
+			remoteInfo = KDEAudioPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0007B25D4260DB2EADDCFF1F6E079D95 /* Spring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Spring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0286E13FADD3ABC0E9D61EEC9042DCD1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		0494464278FF2413287E46A324D0F8D8 /* KDEAudioPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KDEAudioPlayer-dummy.m"; sourceTree = "<group>"; };
+		05AAFC173987C29B4BA3C3515E623009 /* AutoTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoTextView.swift; path = Spring/AutoTextView.swift; sourceTree = "<group>"; };
+		0614D542C4C5116958F2180363A753E1 /* Pods-Fightbait-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fightbait-acknowledgements.plist"; sourceTree = "<group>"; };
+		0686991A28AE4B26771967198E0EE0F7 /* SpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Spring/SpringAnimation.swift; sourceTree = "<group>"; };
+		0F34AEADB360063703B300204ACF3381 /* Spring-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-umbrella.h"; sourceTree = "<group>"; };
+		11CD9567321E71B122B8B68415AC4C28 /* AsyncButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncButton.swift; path = Spring/AsyncButton.swift; sourceTree = "<group>"; };
+		1C065C6D0E4CC334849389C860F794D9 /* SpringLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringLabel.swift; path = Spring/SpringLabel.swift; sourceTree = "<group>"; };
+		1D8F07CD86069C74D49531341507CD8B /* KDEAudioPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDEAudioPlayer-prefix.pch"; sourceTree = "<group>"; };
+		1DB8A18FFC2B50629A4CDD5C850D8A38 /* KDEAudioPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDEAudioPlayer-umbrella.h"; sourceTree = "<group>"; };
+		21DDB3A02CC14EA3A408DA13FB76C7BC /* SpringButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringButton.swift; path = Spring/SpringButton.swift; sourceTree = "<group>"; };
+		24ADFD8F7F48BD5740845AA6FA507483 /* Pods-Fightbait-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fightbait-umbrella.h"; sourceTree = "<group>"; };
+		25F3C2CFFA4CEBE4BEA8974FF2C16161 /* KDEAudioPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KDEAudioPlayer.modulemap; sourceTree = "<group>"; };
+		2616C35E6CE08728AA94F3E3AEBF020D /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = Spring/KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		2A40C8E8B866509256BF3E278CA9CE18 /* SpringTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextView.swift; path = Spring/SpringTextView.swift; sourceTree = "<group>"; };
+		2C1AE05389A0D01E432C2523733FAE5F /* Spring.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Spring.xcconfig; sourceTree = "<group>"; };
+		2C2F5102E9E17C2481BE0B6D1C3EB55D /* SoundPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SoundPlayer.swift; path = Spring/SoundPlayer.swift; sourceTree = "<group>"; };
+		2CD8C7958116875000461C1CD2B71F59 /* Spring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spring.swift; path = Spring/Spring.swift; sourceTree = "<group>"; };
+		2E926F61E90D3A443B54DF79EC0081E1 /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = Spring/LoadingView.swift; sourceTree = "<group>"; };
+		30B4CE7C3AFB484ECA6611BD72ED984D /* SpringView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringView.swift; path = Spring/SpringView.swift; sourceTree = "<group>"; };
+		4BEAAB75EBFDA02FF8C36A7C1A32FC06 /* BlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = Spring/BlurView.swift; sourceTree = "<group>"; };
+		4D30C5B276007CB331B396C9A9F79D9B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		5002C740C4535B239D613F8678709C96 /* Misc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = Spring/Misc.swift; sourceTree = "<group>"; };
+		5AF5F59EA7866F66FBE05E2D6A492943 /* Pods_Fightbait.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fightbait.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8CC32582ADA946CEEE179A93073222 /* SpringTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextField.swift; path = Spring/SpringTextField.swift; sourceTree = "<group>"; };
+		5FDF90AC50AFBF222597613510A188A6 /* Spring.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Spring.modulemap; sourceTree = "<group>"; };
+		62E9C2AB57F6CE627CAC97A09C438685 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = AudioPlayer/AudioPlayer/Reachability.swift; sourceTree = "<group>"; };
+		6538CA739383A3CC5032CABF3EFCFC24 /* DesignableTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = Spring/DesignableTextField.swift; sourceTree = "<group>"; };
+		67BD3682D5D058C192FE2EBDCAFA8E4C /* Pods-Fightbait-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fightbait-dummy.m"; sourceTree = "<group>"; };
+		67F846B1C4B5B1325B00BF4BD6740E1C /* Pods-Fightbait.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fightbait.debug.xcconfig"; sourceTree = "<group>"; };
+		6B21CCE87D802261E1078DA6F2DB5A78 /* Spring-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Spring-dummy.m"; sourceTree = "<group>"; };
+		75875BC5A4941746B1FFD9B8BE4C75AA /* Pods-Fightbait-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fightbait-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7920ED9FBAC21A346F9472237EBA3AA7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		799A9E58B21E35762CC3299B95F2370B /* UnwindSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnwindSegue.swift; path = Spring/UnwindSegue.swift; sourceTree = "<group>"; };
+		805CC44C603BFE7A6E10728C776E9FF6 /* LoadingView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LoadingView.xib; path = Spring/LoadingView.xib; sourceTree = "<group>"; };
+		80F075347F78550BCE1017F51D0BB413 /* DesignableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableButton.swift; path = Spring/DesignableButton.swift; sourceTree = "<group>"; };
+		860582F95F57ADFC0671B6932AB27BA4 /* DesignableLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableLabel.swift; path = Spring/DesignableLabel.swift; sourceTree = "<group>"; };
+		88ED374A93C14E547161390851B40CE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91DF35E4AACDC3ACF4ACD0E317A1EEB7 /* Pods-Fightbait.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Fightbait.modulemap"; sourceTree = "<group>"; };
+		968B6F2003F1F1461DBE80EFADDC1FC3 /* DesignableImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableImageView.swift; path = Spring/DesignableImageView.swift; sourceTree = "<group>"; };
+		9F3671F2A72C7F0A42BE648663F8597F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		A4EF1079331F83FC87031299FB8CFE9A /* KDEAudioPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KDEAudioPlayer.xcconfig; sourceTree = "<group>"; };
+		AB788189A3FDF4C182CD1778E94FDBB8 /* TransitionZoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionZoom.swift; path = Spring/TransitionZoom.swift; sourceTree = "<group>"; };
+		ABAEEF6C719D962B3F435A6A180F6CE7 /* SpringImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringImageView.swift; path = Spring/SpringImageView.swift; sourceTree = "<group>"; };
+		B0DC5A8F67F57EB1462B5DD955C4B981 /* DesignableTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextView.swift; path = Spring/DesignableTextView.swift; sourceTree = "<group>"; };
+		B12E8A8FE307E4E4960B597BD994899B /* DesignableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = Spring/DesignableView.swift; sourceTree = "<group>"; };
+		B9A488F17DC489B3FC796556C7C641F1 /* AudioPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioPlayer.swift; path = AudioPlayer/AudioPlayer/AudioPlayer.swift; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBD1E194111F11B472509243719BF670 /* Pods-Fightbait.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fightbait.release.xcconfig"; sourceTree = "<group>"; };
+		C09C42B01F6CBFDAB6DD4F3295492CA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C1A22AB77F00DF3279F4460746D04D97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40E91F86BE5A3ED6BBBCA53F7859989 /* Pods-Fightbait-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fightbait-resources.sh"; sourceTree = "<group>"; };
+		CAD1CD2828EF2C6A90EF6E167915E92B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D4211C85B63C142A21678DEE7CEB6B1F /* DesignableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTabBarController.swift; path = Spring/DesignableTabBarController.swift; sourceTree = "<group>"; };
+		E6EE8A82C065DB31A4961435BDF16B66 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SpringApp/Images.xcassets; sourceTree = "<group>"; };
+		EC7E10E53F5D9EA825DFA5B52E93CAFA /* KDEAudioPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KDEAudioPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD1EDA973101615A8BA991C79C7C89C /* AsyncImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncImageView.swift; path = Spring/AsyncImageView.swift; sourceTree = "<group>"; };
+		EE828F02911760B3F8525391D7513EC2 /* AudioItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioItem.swift; path = AudioPlayer/AudioPlayer/AudioItem.swift; sourceTree = "<group>"; };
+		EEF8877A86D514F3DB5B3147398094DB /* Spring-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-prefix.pch"; sourceTree = "<group>"; };
+		F40F5C7AF73F55E7910F875FB88FDB1D /* ImageLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = Spring/ImageLoader.swift; sourceTree = "<group>"; };
+		F7A5361F3AEDC6D6567E47BF891D4A87 /* TransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = Spring/TransitionManager.swift; sourceTree = "<group>"; };
+		F8BB52761BBF77FC8012F014305531A8 /* Pods-Fightbait-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fightbait-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EED947F1BEFBE1393F120F9A837C6F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765DCCD350062B9C01357884248AECC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AD532F5B21B1B80172248F35FE15748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F82D92E1182B80A847A057A4F8722D90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD83FFDB8D8406E7185930CEEB03B4F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E752C356C4D4ACE5141E54921BC45788 /* AVFoundation.framework in Frameworks */,
+				43338C8709E4AD42F3BCAE8AA0D5E2B1 /* Foundation.framework in Frameworks */,
+				96B033297F7B2AE236C1868FFE5C173A /* MediaPlayer.framework in Frameworks */,
+				0A4AD25D0BA06E7AA350303124066462 /* SystemConfiguration.framework in Frameworks */,
+				B1E2C7F59A4B68C754FADD0C3CFEB32A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B982DE146611F8F379420FB1CCD9F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF61F2558EB8589DB60C54E9A6DF3ED5 /* KDEAudioPlayer */,
+				844D993D5499FED95719C77C3D27127C /* Spring */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A381F7A775833D972DEE2FC55D4A86B4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B10DCA0C9B59222581EC2B7F4EC3CDA /* Pods-Fightbait */ = {
+			isa = PBXGroup;
+			children = (
+				7920ED9FBAC21A346F9472237EBA3AA7 /* Info.plist */,
+				91DF35E4AACDC3ACF4ACD0E317A1EEB7 /* Pods-Fightbait.modulemap */,
+				75875BC5A4941746B1FFD9B8BE4C75AA /* Pods-Fightbait-acknowledgements.markdown */,
+				0614D542C4C5116958F2180363A753E1 /* Pods-Fightbait-acknowledgements.plist */,
+				67BD3682D5D058C192FE2EBDCAFA8E4C /* Pods-Fightbait-dummy.m */,
+				F8BB52761BBF77FC8012F014305531A8 /* Pods-Fightbait-frameworks.sh */,
+				C40E91F86BE5A3ED6BBBCA53F7859989 /* Pods-Fightbait-resources.sh */,
+				24ADFD8F7F48BD5740845AA6FA507483 /* Pods-Fightbait-umbrella.h */,
+				67F846B1C4B5B1325B00BF4BD6740E1C /* Pods-Fightbait.debug.xcconfig */,
+				BBD1E194111F11B472509243719BF670 /* Pods-Fightbait.release.xcconfig */,
+			);
+			name = "Pods-Fightbait";
+			path = "Target Support Files/Pods-Fightbait";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				13B982DE146611F8F379420FB1CCD9F8 /* Pods */,
+				E36ADF63BBA69905032BC6C5592DE6B9 /* Products */,
+				89372A6CB23A097C887D87CE51998EF5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		844D993D5499FED95719C77C3D27127C /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				11CD9567321E71B122B8B68415AC4C28 /* AsyncButton.swift */,
+				ECD1EDA973101615A8BA991C79C7C89C /* AsyncImageView.swift */,
+				05AAFC173987C29B4BA3C3515E623009 /* AutoTextView.swift */,
+				4BEAAB75EBFDA02FF8C36A7C1A32FC06 /* BlurView.swift */,
+				80F075347F78550BCE1017F51D0BB413 /* DesignableButton.swift */,
+				968B6F2003F1F1461DBE80EFADDC1FC3 /* DesignableImageView.swift */,
+				860582F95F57ADFC0671B6932AB27BA4 /* DesignableLabel.swift */,
+				D4211C85B63C142A21678DEE7CEB6B1F /* DesignableTabBarController.swift */,
+				6538CA739383A3CC5032CABF3EFCFC24 /* DesignableTextField.swift */,
+				B0DC5A8F67F57EB1462B5DD955C4B981 /* DesignableTextView.swift */,
+				B12E8A8FE307E4E4960B597BD994899B /* DesignableView.swift */,
+				F40F5C7AF73F55E7910F875FB88FDB1D /* ImageLoader.swift */,
+				2616C35E6CE08728AA94F3E3AEBF020D /* KeyboardLayoutConstraint.swift */,
+				2E926F61E90D3A443B54DF79EC0081E1 /* LoadingView.swift */,
+				5002C740C4535B239D613F8678709C96 /* Misc.swift */,
+				2C2F5102E9E17C2481BE0B6D1C3EB55D /* SoundPlayer.swift */,
+				2CD8C7958116875000461C1CD2B71F59 /* Spring.swift */,
+				0686991A28AE4B26771967198E0EE0F7 /* SpringAnimation.swift */,
+				21DDB3A02CC14EA3A408DA13FB76C7BC /* SpringButton.swift */,
+				ABAEEF6C719D962B3F435A6A180F6CE7 /* SpringImageView.swift */,
+				1C065C6D0E4CC334849389C860F794D9 /* SpringLabel.swift */,
+				5B8CC32582ADA946CEEE179A93073222 /* SpringTextField.swift */,
+				2A40C8E8B866509256BF3E278CA9CE18 /* SpringTextView.swift */,
+				30B4CE7C3AFB484ECA6611BD72ED984D /* SpringView.swift */,
+				F7A5361F3AEDC6D6567E47BF891D4A87 /* TransitionManager.swift */,
+				AB788189A3FDF4C182CD1778E94FDBB8 /* TransitionZoom.swift */,
+				799A9E58B21E35762CC3299B95F2370B /* UnwindSegue.swift */,
+				D13F6D36FFAEAF2D9EBE76EB3C306219 /* Resources */,
+				E9AABB246C77F872C3C91D2823CA28E5 /* Support Files */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		89372A6CB23A097C887D87CE51998EF5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B10DCA0C9B59222581EC2B7F4EC3CDA /* Pods-Fightbait */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		993C03A24EE33FF80D74E195598C6CF5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1A22AB77F00DF3279F4460746D04D97 /* Info.plist */,
+				25F3C2CFFA4CEBE4BEA8974FF2C16161 /* KDEAudioPlayer.modulemap */,
+				A4EF1079331F83FC87031299FB8CFE9A /* KDEAudioPlayer.xcconfig */,
+				0494464278FF2413287E46A324D0F8D8 /* KDEAudioPlayer-dummy.m */,
+				1D8F07CD86069C74D49531341507CD8B /* KDEAudioPlayer-prefix.pch */,
+				1DB8A18FFC2B50629A4CDD5C850D8A38 /* KDEAudioPlayer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KDEAudioPlayer";
+			sourceTree = "<group>";
+		};
+		A381F7A775833D972DEE2FC55D4A86B4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0286E13FADD3ABC0E9D61EEC9042DCD1 /* AVFoundation.framework */,
+				C09C42B01F6CBFDAB6DD4F3295492CA9 /* Foundation.framework */,
+				4D30C5B276007CB331B396C9A9F79D9B /* MediaPlayer.framework */,
+				9F3671F2A72C7F0A42BE648663F8597F /* SystemConfiguration.framework */,
+				CAD1CD2828EF2C6A90EF6E167915E92B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D13F6D36FFAEAF2D9EBE76EB3C306219 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE8A82C065DB31A4961435BDF16B66 /* Images.xcassets */,
+				805CC44C603BFE7A6E10728C776E9FF6 /* LoadingView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E36ADF63BBA69905032BC6C5592DE6B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC7E10E53F5D9EA825DFA5B52E93CAFA /* KDEAudioPlayer.framework */,
+				5AF5F59EA7866F66FBE05E2D6A492943 /* Pods_Fightbait.framework */,
+				0007B25D4260DB2EADDCFF1F6E079D95 /* Spring.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9AABB246C77F872C3C91D2823CA28E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88ED374A93C14E547161390851B40CE2 /* Info.plist */,
+				5FDF90AC50AFBF222597613510A188A6 /* Spring.modulemap */,
+				2C1AE05389A0D01E432C2523733FAE5F /* Spring.xcconfig */,
+				6B21CCE87D802261E1078DA6F2DB5A78 /* Spring-dummy.m */,
+				EEF8877A86D514F3DB5B3147398094DB /* Spring-prefix.pch */,
+				0F34AEADB360063703B300204ACF3381 /* Spring-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Spring";
+			sourceTree = "<group>";
+		};
+		FF61F2558EB8589DB60C54E9A6DF3ED5 /* KDEAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				EE828F02911760B3F8525391D7513EC2 /* AudioItem.swift */,
+				B9A488F17DC489B3FC796556C7C641F1 /* AudioPlayer.swift */,
+				62E9C2AB57F6CE627CAC97A09C438685 /* Reachability.swift */,
+				993C03A24EE33FF80D74E195598C6CF5 /* Support Files */,
+			);
+			path = KDEAudioPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06AA39BD342B6C9223EFD64B470D76B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB37C48A55DC7EA06DB6F4C7CDB77291 /* Spring-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6536A6015AE1DA5B194D76F6301FD6CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF5D5BB1041DDC4839CDE4595F9503A /* Pods-Fightbait-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2291A350295B7D2A9BE3272CB7838BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A973D0336DCFA83E6D44E0D7E540BBB4 /* KDEAudioPlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0820112732CEDFD65F9F2F2C7A8E6E7F /* Pods-Fightbait */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1DCF56C78AF4D9492FB48C308D10F04 /* Build configuration list for PBXNativeTarget "Pods-Fightbait" */;
+			buildPhases = (
+				4D3CD69EE11E6C603322D4A066C7A08F /* Sources */,
+				7AD532F5B21B1B80172248F35FE15748 /* Frameworks */,
+				6536A6015AE1DA5B194D76F6301FD6CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EC3B9567C9C858D3741EFA68ACE9A3D /* PBXTargetDependency */,
+				E3B5384CA01DBF00DB53571EFBB6233D /* PBXTargetDependency */,
+			);
+			name = "Pods-Fightbait";
+			productName = "Pods-Fightbait";
+			productReference = 5AF5F59EA7866F66FBE05E2D6A492943 /* Pods_Fightbait.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2D290ACA5ACDEE3F76685C292AF88D4E /* Spring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58BF47824FE279A5F0D2B96C38D75E4F /* Build configuration list for PBXNativeTarget "Spring" */;
+			buildPhases = (
+				B907AF3833965B935D26001AEB5B152C /* Sources */,
+				0EED947F1BEFBE1393F120F9A837C6F2 /* Frameworks */,
+				291053BBEB575AB12B9698BF3F2C8DB0 /* Resources */,
+				06AA39BD342B6C9223EFD64B470D76B2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spring;
+			productName = Spring;
+			productReference = 0007B25D4260DB2EADDCFF1F6E079D95 /* Spring.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		541E9AD8F0209976F59A780F49A3F069 /* KDEAudioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B115D010DAE2F5F16160AAE5A64EB34 /* Build configuration list for PBXNativeTarget "KDEAudioPlayer" */;
+			buildPhases = (
+				05D57B930F142B9BD1031DC14E10F8DF /* Sources */,
+				CD83FFDB8D8406E7185930CEEB03B4F8 /* Frameworks */,
+				E2291A350295B7D2A9BE3272CB7838BC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KDEAudioPlayer;
+			productName = KDEAudioPlayer;
+			productReference = EC7E10E53F5D9EA825DFA5B52E93CAFA /* KDEAudioPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E36ADF63BBA69905032BC6C5592DE6B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				541E9AD8F0209976F59A780F49A3F069 /* KDEAudioPlayer */,
+				0820112732CEDFD65F9F2F2C7A8E6E7F /* Pods-Fightbait */,
+				2D290ACA5ACDEE3F76685C292AF88D4E /* Spring */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		291053BBEB575AB12B9698BF3F2C8DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C14EA50E925AD5BE2D56B1ECF9FB6C4F /* Images.xcassets in Resources */,
+				39064334E8B5EFADB35E7CA897D88B0F /* LoadingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05D57B930F142B9BD1031DC14E10F8DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EBE84C260B69BC2D6848DBA273BA58 /* AudioItem.swift in Sources */,
+				0A135879E545A65E07D2954A111AD3F6 /* AudioPlayer.swift in Sources */,
+				0703C2D46FB27B2EF231A8D75EF99F42 /* KDEAudioPlayer-dummy.m in Sources */,
+				B072412A9B39E773BFD13CF6B672FFBF /* Reachability.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3CD69EE11E6C603322D4A066C7A08F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCF7006E484F810393B7813C2E21A43 /* Pods-Fightbait-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B907AF3833965B935D26001AEB5B152C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E7119A2BC750FDA21FF1E006D6617B0 /* AsyncButton.swift in Sources */,
+				6EE6798930E34BF4965A068532523A45 /* AsyncImageView.swift in Sources */,
+				6568177C2D70B5EBE1BA352CCDD1C503 /* AutoTextView.swift in Sources */,
+				0BB4589350D007B99007B7AE5C972186 /* BlurView.swift in Sources */,
+				D9FFED6376826CA3D9DD665927D01841 /* DesignableButton.swift in Sources */,
+				F5D0FE796F1C303AEDBE7C4B1A9E474D /* DesignableImageView.swift in Sources */,
+				A6A1B27B928D1CFE69A06A03078AEE3A /* DesignableLabel.swift in Sources */,
+				619EAE8BC77BA2203473791F9923A0D0 /* DesignableTabBarController.swift in Sources */,
+				4B1D7BC586A17563671200CC7494E991 /* DesignableTextField.swift in Sources */,
+				D49B10BA296638DE79F6C7923E809DCE /* DesignableTextView.swift in Sources */,
+				9AB31A331649F77202877B7C1277F406 /* DesignableView.swift in Sources */,
+				0296F4B527187CF56763B3EF6FF8FB48 /* ImageLoader.swift in Sources */,
+				0AC3D6A36381FAEEDFD1F196AB3622E5 /* KeyboardLayoutConstraint.swift in Sources */,
+				B6032D5A247BCAC49926EF28E68B17CF /* LoadingView.swift in Sources */,
+				98D4AEB0528A7924A6B6BB12B24295FA /* Misc.swift in Sources */,
+				A00D4B914E736C58A77DA16C14B73C53 /* SoundPlayer.swift in Sources */,
+				C82A4304439C1A0C3D8ACFD194F13403 /* Spring-dummy.m in Sources */,
+				B797128E052C5C6C6300A104F4479D34 /* Spring.swift in Sources */,
+				5C51683C772DEAD004DBE54ADECB1BE8 /* SpringAnimation.swift in Sources */,
+				6BCD77AA97D45167958EC9BE71846C5C /* SpringButton.swift in Sources */,
+				B164F5C80BE61229D5E815DC7EF8A674 /* SpringImageView.swift in Sources */,
+				CD7E38ED6C250ED5CF1D0FC74F8D741C /* SpringLabel.swift in Sources */,
+				BD79C37A94CC84C78B514076E9A86F5D /* SpringTextField.swift in Sources */,
+				71E442946616DE2A29359898CFBE4EC6 /* SpringTextView.swift in Sources */,
+				81F83890B3F5D9AB64C1F03B8737F436 /* SpringView.swift in Sources */,
+				8DB745B86FE9D8CB0500C425CE6C26F7 /* TransitionManager.swift in Sources */,
+				59C689314C86DE967FD011538258D6E5 /* TransitionZoom.swift in Sources */,
+				5816F668EF1444B1A6E37C35CA91187C /* UnwindSegue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EC3B9567C9C858D3741EFA68ACE9A3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KDEAudioPlayer;
+			target = 541E9AD8F0209976F59A780F49A3F069 /* KDEAudioPlayer */;
+			targetProxy = EE760649E51787E80D3270D332D7E821 /* PBXContainerItemProxy */;
+		};
+		E3B5384CA01DBF00DB53571EFBB6233D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Spring;
+			target = 2D290ACA5ACDEE3F76685C292AF88D4E /* Spring */;
+			targetProxy = 48AEE5F2FDF6A8DD0B650E015621D367 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1230EADF88EB0D3A6F0D060EB9523D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4EF1079331F83FC87031299FB8CFE9A /* KDEAudioPlayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KDEAudioPlayer/KDEAudioPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KDEAudioPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KDEAudioPlayer/KDEAudioPlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KDEAudioPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5370B7BB1634AD97C48634AB85FEA3D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1AE05389A0D01E432C2523733FAE5F /* Spring.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Spring/Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Spring/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Spring/Spring.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E76C4EB90F2DF523A8AAAF790EAB571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1AE05389A0D01E432C2523733FAE5F /* Spring.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Spring/Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Spring/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Spring/Spring.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		83ED998BEFECCDC134E73CBE32D3B95D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD1E194111F11B472509243719BF670 /* Pods-Fightbait.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Fightbait/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fightbait/Pods-Fightbait.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Fightbait;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C317C3DBF977E5AC5E4F314367487DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67F846B1C4B5B1325B00BF4BD6740E1C /* Pods-Fightbait.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Fightbait/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fightbait/Pods-Fightbait.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Fightbait;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF90A75DB2D7A13848F9FC54EE71537D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4EF1079331F83FC87031299FB8CFE9A /* KDEAudioPlayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KDEAudioPlayer/KDEAudioPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KDEAudioPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KDEAudioPlayer/KDEAudioPlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KDEAudioPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B115D010DAE2F5F16160AAE5A64EB34 /* Build configuration list for PBXNativeTarget "KDEAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1230EADF88EB0D3A6F0D060EB9523D79 /* Debug */,
+				CF90A75DB2D7A13848F9FC54EE71537D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58BF47824FE279A5F0D2B96C38D75E4F /* Build configuration list for PBXNativeTarget "Spring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5370B7BB1634AD97C48634AB85FEA3D1 /* Debug */,
+				5E76C4EB90F2DF523A8AAAF790EAB571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1DCF56C78AF4D9492FB48C308D10F04 /* Build configuration list for PBXNativeTarget "Pods-Fightbait" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C317C3DBF977E5AC5E4F314367487DCC /* Debug */,
+				83ED998BEFECCDC134E73CBE32D3B95D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
